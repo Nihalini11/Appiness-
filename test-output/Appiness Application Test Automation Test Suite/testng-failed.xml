@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Appiness Application Test Automation Test Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.appiness.qa.ExtentRepoetListener.ExtentReporterNG"/>
+  </listeners>
+  <test name="Appiness App Test Cases(failed)">
+    <classes>
+      <class name="com.appiness.qa.testcases.LoginTest">
+        <methods>
+          <include name="EmptyUsername"/>
+          <include name="setUp"/>
+          <include name="IncorrectEmailPassword"/>
+          <include name="EmptyPassword"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.appiness.qa.testcases.LoginTest -->
+    </classes>
+  </test> <!-- Appiness App Test Cases(failed) -->
+</suite> <!-- Failed suite [Appiness Application Test Automation Test Suite] -->
